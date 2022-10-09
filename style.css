@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* ================= INICIO HEADER =================== */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-direction: row;
+    height: 40vh;
+    color: #defeff;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.5)
+    ) 
+    ,url("media/panoramic.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+header img {
+    width: 10.7rem;
+    height: 10.7rem;
+    border-radius: 50%;
+    border: 2px solid #365ce6;
+}
+
+/* ================= FIN HEADER =================== */
+/* ================= FIN HEADER =================== */
+/* ================= FIN HEADER =================== */
+/* ================= FIN HEADER =================== */
+/* ================= FIN HEADER =================== */
+
+/* ================= INICIO SKILLS =================== */
+/* ================= INICIO SKILLS =================== */
+/* ================= INICIO SKILLS =================== */
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1rem 2.6rem;
+    background-color: #cffede;
+}
+
+.skills2 {
+    display: flex; 
+    flex-direction: row;
+    width: 51%;
+    height: 12rem;
+}
+
+.skills1 {
+    display: flex;
+    flex-direction: row;
+    width: 51%;
+    height: 12rem;
+}
+
+.skills1 h2 {
+    color: white;
+    padding: 1.1rem;
+    background-color: #365ce6;
+    border-radius: 10px;
+    font-size: 1.3rem;
+}
+
+.skills1 ul {
+    margin-top: 6rem;
+    margin-left: -11rem;
+    color: #365ce6;
+    font-size: 1.2rem;
+}
+
+.skills2 h2 {
+    text-align: center;
+    margin-top: 7.7rem;
+    padding-top: .4rem;
+    color: white;
+    background-color: #365ce6;
+    border-radius: 10px;
+    font-size: 1.3rem;
+}
+
+.skills2 ul {
+    color: #365ce6;
+    margin-left: -10rem;
+    font-size: 1.2rem;
+}
+
+/* ================= FIN SKILLS =================== */
+/* ================= FIN SKILLS =================== */
+/* ================= FIN SKILLS =================== */
+
+/* ================= INICIO SKILLS =================== */
+/* ================= INICIO SKILLS =================== */
+/* ================= INICIO SKILLS =================== */
+
+
