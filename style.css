@@ -102,8 +102,73 @@ header img {
 /* ================= FIN SKILLS =================== */
 /* ================= FIN SKILLS =================== */
 
-/* ================= INICIO SKILLS =================== */
-/* ================= INICIO SKILLS =================== */
-/* ================= INICIO SKILLS =================== */
+/* ================= INICIO EXPERIENCE =================== */
+/* ================= INICIO EXPERIENCE =================== */
+/* ================= INICIO EXPERIENCE =================== */
 
+.experience {
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: linear-gradient(
+    0deg,
+    rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7)
+    ),
+    url("./media/trabajo.jpg");
+}
+
+.expcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards {
+    margin: 0 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 17rem;
+    height: 22rem;
+    border-radius: 15px;
+    border: 2px solid rgba(69,34,40,0.54);
+    box-shadow: 5px 5px 3px #d0d0d2;
+}
+
+.cards img {
+    border-radius: 12px;
+    height: 17rem;
+    width: 100%;
+    background-image: linear-gradient(
+    0deg,
+    rgba(0,0,0,0.8),
+    rgba(0,0,0,0.8)
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    }
+
+.cards div {
+    z-index: 10;
+    height: 19rem;
+    color: #365ce6;
+    background-color: #cffede;
+    width: 100%;
+    margin-top: -4rem;
+    border-radius: 13px;
+}
+
+.cards div p {
+    margin-top: .3rem;
+    margin-left: .5rem;
+}
+/* ================= INICIO EXPERIENCE =================== */
+/* ================= INICIO EXPERIENCE =================== */
+/* ================= INICIO EXPERIENCE =================== */
 
